@@ -1,0 +1,121 @@
+@media (min-width:251px) and (max-width:400px) {
+  header {
+      animation: down 1s 1;
+      padding-bottom: 1px
+  }
+  .show-when-mobile {
+      display: block
+  }
+  .hide-when-mobile {
+      display: none
+  }
+  .absolute {
+      position: absolute;
+      top: 0;
+      right: 10px
+  }
+  .show-when-mobile input {
+      display: none
+  }
+  .fa-bars {
+      font-size: 30px;
+      transform: scaleX(1.4)
+  }
+  .show-on-click {
+      display: none;
+      border-top: 2px solid #000
+  }
+  #burger:checked+.show-on-click {
+      display: block
+  }
+  label {
+      font-size: 22px;
+      display: block;
+      padding: 24px;
+      text-align: center
+  }
+  label:hover {
+      color: #cfb819;
+      letter-spacing: 2px
+  }
+  .main-div {
+      border-bottom: 2px solid #000
+  }
+  h1 span {
+      font-size: 16px !important;
+      padding: 7px 5px !important;
+      font-weight: 600
+  }
+  .block h2 {
+      width: 55%;
+      font-size: 17px
+  }
+  .textContainer button {
+      width: 47%;
+      font-size: 15px
+  }
+  .textContainer h3 {
+      font-size: 1.19rem
+  }
+  #services .container .textt-ticker img {
+      padding: 15px;
+      width: 100%;
+      max-height: 100%;
+      text-align: center;
+      background-color: #59670c;
+      object-fit: contain;
+      margin-top: 10px;
+      margin-bottom: 15px
+  }
+  #services h5 {
+      width: 55%;
+      font-size: 16px
+  }
+  .container .our-form form input,
+  .container .our-form form textarea,
+  .container .our-form form .custom-file {
+      width: 100%
+  }
+  .asterisk {
+      font-size: 35px !important;
+      margin-left: 7% !important
+  }
+  .items.list-view img {
+      width: 55px;
+      height: 55px
+  }
+  .items.list-view .item .description {
+      padding: 0;
+      max-width: 84%;
+      height: 130px;
+      margin-left: 124px;
+      margin-top: 10px
+  }
+  .items.list-view .item h6 {
+      font-size: 14px !important;
+      padding: 10px 0 !important;
+      width: 46% !important
+  }
+  .flowers.list-view img {
+      width: 49px;
+      height: 49px
+  }
+  .flowers .flower h6 {
+      font-size: 13px !important;
+      padding: 10px 5px;
+      width: 49% !important
+  }
+  .product span {
+      font-size: 20px;
+      font-weight: 600;
+      color: #59670c
+  }
+  .product h3 {
+      font-weight: 700;
+      color: #59670c
+  }
+  .products .product {
+      background-color: #80808091;
+      margin-bottom: 25px
+  }
+}

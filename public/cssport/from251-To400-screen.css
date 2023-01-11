@@ -1,0 +1,349 @@
+@media (min-width:251px) and (max-width:400px) {
+
+    /* start navbar "header" */
+  
+
+    nav {
+        width: 100%;
+        background-color: #000000db;
+        height: 6rem;
+        position: fixed;
+        right: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 9999;
+    }
+
+    .nav-list {
+        width: 100%;
+        height: 89vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000db;
+        position: fixed;
+        left: 0;
+        bottom: -100vh;
+        transition: bottom 650ms;
+        z-index: 99
+    }
+
+    .nav-item {
+        position: relative;
+        line-height: 2.5rem;
+        transition-delay: .5s;
+        visibility: hidden;
+    }
+
+    .nav-list.open {
+        bottom: -40px;
+    }
+
+    .cantactIcon-i {
+      display: flex;
+    }
+
+    .cantactIcon-i .fa {
+        color: #FFF;
+        font-size: 35px;
+        display: inline;
+        padding: 10px;
+    }
+
+    /* end navbar "header" */
+
+
+    .movy {
+        flex-direction: column-reverse;
+    }
+
+    .hero {
+      width: 100%;
+      height: 410px;
+      border-radius: 50%;
+      margin-left: 0px;
+      border: 10px solid rgb(82 112 82 / 98%);
+      animation: scale-in-center 3s ease 0s 1 normal none;
+  }
+ 
+ 
+    @keyframes scale-in-center {
+      0% {
+        transform: scale(0.75);
+        opacity: 1;
+      }
+ 
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+ 
+
+    /* start typer "I'm" Sherif shickoo FreeLancer */
+    .typer {
+        font-size: 38px;
+        margin-left: -22px;
+        color: #FFF;
+        text-shadow: -1px -6px 4px rgb(70 206 70 / 98%);
+    }
+
+    /* End typer "I'm" Sherif shickoo FreeLancer */
+
+    /* start arragment button that named veiw my works */
+  
+    .links{
+      height: 110px;
+      outline: none;
+      margin-bottom: 35px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+
+    .links .veiw {
+        padding: 15px 25px;
+        height: 55%;
+        margin-bottom: 10px;
+        font-size: 15px;
+        background-color: rgb(82 112 82 / 98%);
+        border-radius: 5px;
+        box-shadow: inset 0 0 0 0 #009688;
+        transition: ease-in-out 1.9s;
+        border: 1px solid rgb(82 112 82 / 98%);
+        outline: none;
+
+    }
+
+
+    .links .veiw:hover {
+        box-shadow: inset 250px 1px 1px 1px #000;
+    }
+
+
+
+    /* End arragment button that named veiw my works */
+    /* Start arragment arrow that named contact Me .... into from 251px to 400px  */
+
+
+    
+    
+    .links .contct {
+    
+        background-color: transparent;
+        padding: 14px 0px;
+        width: 60%;
+        height: 65px;
+        text-align: center;
+        border-radius: 6px;
+        border: 2px solid rgb(82 112 82 / 98%);
+    
+    }
+    
+    .links .contactMe {
+      font-size: 13px;
+      margin: -6px 10px;
+      display: contents;
+      background-color: transparent;
+    }
+    
+    .icon-arrow-circle-down {
+      color: rgb(82 112 82 / 98%);
+      font-size: 20px;
+      margin-right: 10px;
+      margin-left: 14px;
+    }
+    
+       .contactMe::before {
+          color: rgb(82 112 82 / 98%);
+          background-color: transparent;
+          font-weight: bold;
+          content: "Contact Me";
+          font-size: 17px;
+          margin: 8px 0px;
+          text-decoration: underline;
+          padding: 6px 5px;
+    
+       } 
+
+    /* End arragment arrow that named contact .... into from 251px to 400px  */
+
+    /* Start arragment arrow that down.... into from 251px to 400px  */
+    
+      .arrow {
+        text-align: center;
+        bottom: 8px;
+        position: relative;
+
+    }
+
+    .arrow .icon-arrow-down1 {
+        font-size: 20px;
+        color: rgb(82 112 82 / 98%);
+        animation: bounce-top 1s ease 0s infinite normal none;
+
+    }
+
+    @keyframes bounce-top {
+        0% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(7px);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    /* End arragment arrow that down.... into from 251px to 400px  */
+    /* Start Skills  Progress*/
+    .mainProgress .animation-bar-1 {
+      margin-top: 0%;
+  }
+  .mainProgress .animation-bar-2 {
+    margin-top: 15%;
+}
+
+.mainProgress .animation-bar-3 {
+  margin-top: 15%;
+}
+
+.mainProgress .animation-bar-A {
+  margin-top: 16%;
+}
+
+.mainProgress .animation-bar-B {
+  margin-top: 16%;
+}
+
+
+.mainProgress2 .animation-bar-4 {
+  margin-top: 17%;
+}
+
+.mainProgress2 .animation-bar-5 {
+  margin-top: 16%;
+}
+
+.mainProgress2 .animation-bar-6 {
+  margin-top: 16%;
+}
+
+.mainProgress2 .animation-bar-C {
+  margin-top: 16%;
+}
+
+.mainProgress2 .animation-bar-D {
+  margin-top: 18%;
+}
+
+
+    /* End Skills Progress*/
+
+
+
+/* Start button caled Download CV Section */
+.buttoncv {
+  font-size: 13px;
+  padding-top: 9px;
+  padding-left: 14px;
+  width: 48%;
+}
+
+.downcv {
+  color: inherit;
+  font-size: 30px;
+  font-weight: 500;
+}
+/* End button caled Download CV Section */
+    /* Start Carusel Testimonial into client speake */
+    .d-none {
+      display: block !important;
+  }
+
+    /* End Carusel Testimonial into client speake */
+
+
+    /* start Contact Section */
+
+    
+ #contact {
+  background-color: #80808040;
+  height: 999px;
+}
+
+    .contactLeft h1 {
+      font-size: 23px !important;
+    }
+
+    .contactRight h1 {
+      font-size: 23px;
+    }
+    .contactLeft .injoy {
+      font-size: 14px;
+      margin-top: 0px;
+    }
+    .contactLeft .sham {
+      font-size: 14px;
+    }
+    .contactLeft .phone {
+      font-size: 13px;
+    }
+    .shamandPhon{
+      margin-top:-15px;
+    }
+
+    #contact .wrapper {
+      margin-top: 20px;
+    }
+
+    /* End Contact Section */
+    /* start footer */
+    .footer {
+      width: 100%;
+      height: 260px;
+      background-color: #000;
+      color: #FFF;
+      margin-top: 65px;
+    }
+
+    .footer .copy {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .footer .copy a {
+        color: #ffa502;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .footer .design {
+      margin-bottom: 14px;
+
+    }
+
+    .footer .design a {
+        color: #ffa502;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .footer .footerIcons i {
+      font-size: 23px;
+      padding: 4px;
+    }
+
+
+
+    /* End  footer*/
+
+
+
+
+}

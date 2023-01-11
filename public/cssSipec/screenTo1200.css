@@ -1,0 +1,31 @@
+@media (min-width: 991px) and (max-width: 1200px) {
+  .main-link {
+      padding: 8px
+  }
+  .block h2 {
+      width: 20%
+  }
+  .textContainer button {
+      width: 15%
+  }
+  .container .fa {
+      padding: 50px
+  }
+  .flowers.list-view img {
+      width: 60px !important;
+      height: 60px !important
+  }
+  .items.list-view img {
+      width: 60px !important;
+      height: 60px !important
+  }
+  .product span {
+      font-size: 20px;
+      font-weight: 600;
+      color: #59670c
+  }
+  .product h3 {
+      font-weight: 700;
+      color: #59670c
+  }
+}

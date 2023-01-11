@@ -1,0 +1,218 @@
+@media (min-width:0px) and (max-width:250px) {
+  h1 span {
+      font-size: 9px !important;
+      padding: 2px !important
+  }
+  header {
+      animation: down 1s 1;
+      padding-bottom: 1px
+  }
+  .spiceKing img {
+      width: 25px;
+      height: 25px
+  }
+  .show-when-mobile {
+      display: block
+  }
+  .hide-when-mobile {
+      display: none
+  }
+  .absolute {
+      position: absolute;
+      top: 0;
+      right: 10px
+  }
+  .show-when-mobile input {
+      display: none
+  }
+  .fa-bars {
+      font-size: 30px;
+      transform: scaleX(1.4)
+  }
+  .show-on-click {
+      display: none;
+      border-top: 2px solid #000
+  }
+  #burger:checked+.show-on-click {
+      display: block
+  }
+  label {
+      font-size: 22px;
+      display: block;
+      padding: 25px 20px;
+      text-align: center
+  }
+  label:hover {
+      color: #0ff;
+      letter-spacing: 2px
+  }
+  .main-div {
+      border-bottom: 2px solid #000
+  }
+  .fixed-menu {
+      position: fixed;
+      left: -220px
+  }
+  .fixed-menu h3 {
+      font-size: 1rem !important
+  }
+  .fixed-menu a {
+      font-size: 12px
+  }
+  .block h2 {
+      width: 80%;
+      font-size: 12px
+  }
+  .typer {
+      color: #c0392b;
+      font-size: 22px;
+      margin-top: 30px
+  }
+  #home .sipecess span {
+      position: relative;
+      top: 50px;
+      font-size: 30px
+  }
+  .textContainer h3 {
+      font-size: 1rem
+  }
+  .textContainer button {
+      width: 81%;
+      font-size: 12px
+  }
+  #services h5 {
+      width: 73%;
+      font-size: 12px
+  }
+  .container .textt-ticker img {
+      padding: 15px;
+      width: 100%;
+      max-height: 100%;
+      text-align: center;
+      background-color: #59670c;
+      object-fit: contain;
+      margin-top: 10px;
+      margin-bottom: 15px
+  }
+  .container .textt-ticker span {
+      position: relative;
+      right: 6px;
+      top: 1px;
+      font-size: 14px
+  }
+  .popup .inner p {
+      border: 1px solid green;
+      padding: 4px 3px 4px 14px;
+      margin-top: 7px;
+      color: #59670c9c;
+      width: 56%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto
+  }
+  .myswitchcont {
+      padding-left: 0
+  }
+  .content-list {
+      padding: 10px;
+      width: 190px !important;
+      height: auto !important;
+      color: #FFF;
+      font-weight: 600;
+      background-color: #59670c9c
+  }
+  .content-list>div {
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      color: #FFF;
+      font-weight: 600;
+      overflow: scroll
+  }
+  .container .our-form form input,
+  .container .our-form form textarea,
+  .container .our-form form .custom-file {
+      width: 100%;
+      font-size: 9px
+  }
+  .container .our-form input[type="submit"] {
+      width: 65%;
+      font-size: 12px
+  }
+  .asterisk {
+      font-size: 22px !important;
+      margin-left: 0 !important
+  }
+  .product h3 {
+      font-size: 14px;
+      font-weight: 700
+  }
+  .items.list-view .item .description {
+      padding: 1px !important;
+      max-width: 84%;
+      height: 130px;
+      margin-left: 0 !important;
+      font-size: 13px !important
+  }
+  .items.list-view .item h3 {
+      font-size: 14px;
+      color: #000
+  }
+  .items.list-view img {
+      position: absolute;
+      top: 76px;
+      left: 4px !important;
+      width: 30px !important;
+      height: 30px !important
+  }
+  .items.list-view .item h6 {
+      font-size: 12px !important;
+      padding: 10px 5px !important;
+      width: 53% !important
+  }
+  .flowers.list-view .flower h3 {
+      color: #000;
+      font-size: 13px
+  }
+  .flowers.list-view img {
+      position: absolute;
+      top: 76px;
+      left: 1px;
+      width: 30px !important;
+      height: 30px !important
+  }
+  .flowers .flower h6 {
+      font-size: 11px !important;
+      padding: 10px 0 !important;
+      width: 57% !important
+  }
+  .flowers.list-view .flower .description {
+      max-width: 80%;
+      height: 130px;
+      margin-left: 20px;
+      font-size: 13px;
+      color: #000;
+      margin-top: 10px;
+      overflow: scroll
+  }
+  .product span {
+      font-size: 20px;
+      font-weight: 600;
+      color: #59670c
+  }
+  .product h3 {
+      font-weight: 700;
+      color: #59670c
+  }
+  .products .product {
+      background-color: #80808091;
+      margin-bottom: 25px
+  }
+  .blink-warning {
+      padding: 10px;
+      background-color: #59670c;
+      width: 67%;
+      font-size: 12px
+  }
+}

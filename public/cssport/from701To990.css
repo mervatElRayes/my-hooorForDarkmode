@@ -1,0 +1,387 @@
+@media (min-width:701px) and (max-width:990px) {
+
+/* Organize navbar */
+nav {
+  width: 100%;
+  background-color: #000;
+  height: 8rem;
+  position: fixed;
+  right: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+}
+
+.nav-list {
+  width: 100%;
+  height: 85vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000eb;
+  position: fixed;
+  left: 0;
+  bottom: -100vh;
+  transition: bottom 650ms;
+  z-index: 99
+}
+
+.nav-list.open {
+  bottom: -17px;
+}
+
+.nav-item {
+  position: relative;
+  line-height: 3rem;
+  transition-delay: .5s;
+  visibility: hidden;
+}
+/* Organize shickoo img */
+
+.movy {
+  flex-direction: column-reverse;
+}
+  .hero {
+    width: 63%;
+    height: 490px;
+    border-radius: 50%;
+    margin-left: 100px;
+    border: 10px solid rgb(82 112 82 / 98%);
+    animation: scale-in-center 3s ease 0s 1 normal none;
+
+}
+
+@keyframes scale-in-center {
+    0% {
+        transform: scale(0.75);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/* Organize underLine In close Screen */
+.nav-item::before{
+  position: absolute;
+  bottom: 17px;
+}
+
+  /*Start Organize icons like (facebook, instgram, twitter) in Footer inside small screen "closed screen"  */
+  
+  .cantactIcon-i {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .cantactIcon-i i {
+
+    margin: 5px -5px;
+    font-size: 19px;
+
+  }
+
+  .cantactIcon-i .icon-twitter:hover {
+    color: #00b3ff !important;
+  }
+
+  .cantactIcon-i .icon-github:hover {
+    color: #333 !important;
+  }
+
+  .cantactIcon-i .icon-instagram1:hover {
+    color: gray !important;
+  }
+
+
+  .cantactIcon-i .icon-facebook-square:hover {
+    color: rgb(134, 39, 212) !important;
+  }
+
+  .cantactIcon-i .icon-dribbble:hover {
+    color: rgb(226, 50, 103) !important;
+
+  }
+  /*End Organize icons like (facebook, instgram, twitter) in Footer inside small screen "closed screen" */
+
+    /* start arragment button that named veiw my works   */
+       
+    .links {
+      height: 110px;
+      outline: none;
+      height: 110px;
+      outline: none;
+      margin-bottom: 35px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: stretch;
+      justify-content: center;
+     }
+  
+      .links .veiw a {
+          text-decoration: none;
+          font-weight: bold;         
+          color: #fff;
+      }
+  
+      .links .veiw {
+        padding: 15px 60px;
+        height: 58%;
+        margin-left: 17px;
+        font-size: 15px;
+        background-color: rgb(82 112 82 / 98%);
+        border-radius: 5px;
+        box-shadow: inset 0 0 0 0 #009688;
+        transition: ease-in-out 1.9s;
+        border: 1px solid rgb(82 112 82 / 98%);
+        outline: none;
+      }
+  
+  
+      .links .veiw:hover {
+          box-shadow: inset 250px 1px 1px 1px #000;
+      }
+   /* End arragment button that named veiw my works  */
+      /* Start arragment arrow that named contact Me  */
+  
+  
+    
+      
+      .links .contct {
+          margin-left: 20px;
+          background-color: transparent;
+          padding: 14px 0px;
+          width: 30%;
+          height: 65px;
+          text-align: center;
+          border-radius: 6px;
+          border: 2px solid rgb(82 112 82 / 98%);
+      
+      }
+       
+       .links .contactMe {
+        font-size: 13px;
+        margin: -6px 10px;
+        display: contents;
+        background-color: transparent;
+      } 
+      
+      .icon-arrow-circle-down {
+        color: rgb(82 112 82 / 98%);
+        font-size: 20px;
+        margin-right: 10px;
+        margin-left: 14px;
+      } 
+      
+         .contactMe::before {
+            color: rgb(82 112 82 / 98%);
+            background-color: transparent;
+            font-weight: bold;
+            content: "Contact Me";
+            font-size: 17px;
+            margin: 8px 0px;
+            text-decoration: underline;
+            padding: 6px 5px;
+      
+         } 
+       /* End arragment button that named contactMe  */
+
+       /*Start carousel Named client Speak*/
+
+       
+
+
+
+    #carouselExampleCaptions .carousel-inner {
+        position: relative
+    }
+
+
+
+
+
+
+    .carousel-item #client {
+        margin-bottom: 17px;
+    }
+
+    .carousel-item h5 {
+        color: #FFF;
+        margin: 10px 0px 15px 0px;
+        font-size: 22px;
+    }
+
+
+
+    #carouselExampleCaptions li {
+        background-color: #fff;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #FFF;
+        border-radius: 50%;
+
+
+    }
+
+
+    .carousel-caption p {
+        position: absolute;
+        font-size: 18px;
+        letter-spacing: 0px;
+        right: 15%;
+        top: -59%;
+        left: 15%;
+
+    }
+.carousel-caption .d-none{
+  display: block !important;
+}
+
+    /*End carosule speakClinet */
+
+
+ /* start Contact Section */
+
+ #contact {
+  background-color: #80808040;
+  height: 680px;
+}
+
+#contact h4 {
+  margin: 0px auto;
+}
+
+
+
+.contactLeft h1 {
+  color: #000;
+  text-align: left;
+  font-weight: bold;
+  font-size: 37px;
+}
+
+.contactLeft .injoy {
+  color: #000;
+  text-align: left;
+  font-size: 20px;
+  max-width: 510px;
+}
+
+.contactLeft h5 {
+  color: #000;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.contactLeft .sham {
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+  margin: 10px 0px;
+}
+
+.contactLeft p {
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+  margin: 30px 0px;
+}
+
+/* start Contact Section ... "right section" */
+
+
+.contactRight h1 {
+  color: #000;
+  text-align: left;
+  font-weight: bold;
+  font-size: 37px;
+
+
+}
+
+.contactRight input {
+  border: none;
+  outline: none;
+}
+
+
+#contact .wrapper {
+  background-color: #ced4da;
+  margin-top: 40px;
+}
+
+.wrapper .input_field {
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper .input_field input[type="number"],
+.wrapper textarea {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  background-color: transparent;
+  border-bottom: 1.4px solid gray;
+  outline: none;
+}
+
+.wrapper textarea {
+  height: 80px;
+  resize: none;
+}
+
+.wrapper .btnn input[type="submit"] {
+  border: 0;
+  margin-top: 25px;
+  margin-bottom: 19px;
+  padding: 10px;
+  width: 45%;
+  background-color: #62622299;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.wrapper #error_message {
+  margin-bottom: 20px;
+  padding: 0px;
+  background-color: rgb(82 112 82 / 98%);
+  text-align: center;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+
+.container .our-form .the-message {
+  display: none;
+}
+
+.contactLeft .phone {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 11px 0px;
+}
+
+
+
+/* End Contact Section that content of address and Email ....atc */
+
+
+
+}
